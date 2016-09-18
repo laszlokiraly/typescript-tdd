@@ -1,0 +1,19 @@
+{
+  "name": "typescript-tdd",
+  "version": "0.1.0",
+  "description": "Seed for TDD with Typescript using Mocha and Chai.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "rxjs": "^5.0.0-beta.12",
+    "typescript": "^2.0.2"
+  }
+}
