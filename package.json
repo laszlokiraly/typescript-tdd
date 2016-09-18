@@ -4,16 +4,20 @@
   "description": "Seed for TDD with Typescript using Mocha and Chai.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha -w"
+    "pretest": "./node_modules/.bin/tsc",
+    "test": "./node_modules/.bin/mocha -w -c"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/chai": "^3.4.32",
+    "@types/jasmine": "^2.2.33",
+    "@types/mocha": "^2.2.31",
     "chai": "^3.5.0",
-    "mocha": "^3.0.2"
+    "mocha": "^3.0.2",
+    "typescript": "^2.0.0"
   },
   "dependencies": {
-    "rxjs": "^5.0.0-beta.12",
-    "typescript": "^2.0.2"
+    "rxjs": "^5.0.0-beta.0"
   }
 }

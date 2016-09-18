@@ -1,13 +1,16 @@
-Seed for TDD with Typescript using Mocha and Chai.
+Seed for Test Driven Development with Typescript 2 (https://github.com/Microsoft/TypeScript) using RxJS (https://github.com/ReactiveX/rxjs) Observable.
+Mocha and Chai are used for testing.
 
-installation:
+Installation:
 ```
+git clone https://github.com/laszlokiraly/typescript-tdd
+cd typescript-tdd
 npm install
 ```
 
-run:
+Run:
 ```
 npm test
 ```
 
-This will watch Source and Test Files.
+This will watch source and test files for changes and execute the tests.
