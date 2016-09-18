@@ -1,7 +1,7 @@
 import {Observable} from 'rxjs/Rx';
 import {Subscription} from 'rxjs/Rx';
 
-export default class Calc {
+export default class Calculator {
 
   add(x: number, y: number): number {
     return x + y;
