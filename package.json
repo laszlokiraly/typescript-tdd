@@ -4,7 +4,7 @@
   "description": "Seed for TDD with Typescript using Mocha and Chai.",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha -w"
+    "test": "./node_modules/.bin/mocha -w"
   },
   "author": "",
   "license": "ISC",
